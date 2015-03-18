@@ -1,0 +1,53 @@
+import pandas as pd
+import numpy as pd
+from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
+from sklearn.preprocessing import LabelEncoder
+from sklearn import svm
+
+
+def train_clf(clf, train_data):
+
+    # Transform string target values to numerical values 
+    lbl_enc = LabelEncoder()
+    labels = train_data.target.values
+    y = lbl_enc.fit_transform()
+
+    # Specify feature columns
+    X = train_data.drop(['id', 'target'], axis = 1)
+
+    # Train the classifier
+    clf.fit(X, y)
+
+    return clf # See ifi this could be also done inplace
+
+def make_submission(probs, sample):
+    df = pd.DataFrame(probs, index = sample.id.values, columns = sample.columns[1:])
+    file_num = 0
+
+    submissions_folder = "submissions/"
+
+    while path.isfile(submissions_folder + 'submission-{}.csv'.format(file_num)):
+        file_num += 1
+
+    # Write final submission
+    df.to_csv('submission--{}.csv'.format(file_num), index_label = 'id')
+
+
+def main():
+
+    train_data = pd.read_csv("data/train.csv")
+    test_data = pd.read_csv("data/test.csv")
+    sample_submission = pd.read_csv("data/sampleSubmission.csv")
+
+    clf = RandomForestClassifier(n_estimators = 3000) 
+    clf = train_clf(clf, train)
+
+    probs = clf.predict_proba(test)
+
+    make_submission(probs, sampleSubmission)
+    
+if __name__ == "__main__":
+    main()
+
+    
+

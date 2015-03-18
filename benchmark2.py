@@ -1,3 +1,4 @@
+
 from __future__ import division
 import sys
 
@@ -7,7 +8,7 @@ from sklearn.cross_validation import train_test_split
 from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
 from sklearn.preprocessing import LabelEncoder
 from sklearn import svm
-
+from sklearn import grid_search
 
 np.random.seed(17411)
 
@@ -28,17 +29,8 @@ def logloss_mc(y_true, y_prob, epsilon=1e-15):
     return ll
 
 
-def load_train_data(path=None, train_size=0.95):
-    path = sys.argv[1] if len(sys.argv) > 1 else path
-    if path is None:
-        try:
-            # Unix
-            df = pd.read_csv('data/train.csv')
-        except IOError:
-            # Windows
-            df = pd.read_csv('data\\traifan.csv')
-    else:
-        df = pd.read_csv(path)
+def load_train_data(train_size=0.95, percentage =):
+    df = pd.read_csv('data/train.csv')
     X = df.values.copy()
     np.random.shuffle(X)
     X_train, X_valid, y_train, y_valid = train_test_split(
@@ -49,28 +41,12 @@ def load_train_data(path=None, train_size=0.95):
             y_train.astype(str), y_valid.astype(str))
 
 
-def load_test_data(path=None):
-    path = sys.argv[2] if len(sys.argv) > 2 else path
-    if path is None:
-        try:
-            # Unix
-            df = pd.read_csv('data/test.csv')
-        except IOError:
-            # Windows
-            df = pd.read_csv('data\\test.csv')
-    else:
-        df = pd.read_csv(path)
-    X = df.values
-    X_test, ids = X[:, 1:], X[:, 0]
-    return X_test.astype(float), ids.astype(str)
-
-
-def train(clf, isClassification):
+def train(clf):
     X_train, X_valid, y_train, y_valid = load_train_data()
 
-    
     print(" -- Start training.")
     clf.fit(X_train, y_train)
+    print(clf.best_params_)
 
     if isClassification:
         y_prob = clf.predict_proba(X_valid)
@@ -90,10 +66,9 @@ def train(clf, isClassification):
     return clf, encoder
 
 
-def make_submission(clf, encoder):
+def make_submission(clf, encoder, i):
 
-
-    path = 'submissions/' + path + '.csv' 
+    path = 'submissions/' + str(i) + '.csv' 
     
     X_test, ids = load_test_data()
     y_prob = clf.predict_proba(X_test)
@@ -108,18 +83,35 @@ def make_submission(clf, encoder):
     print(" -- Wrote submission to file {}.".format(path))
 
 
+
+
+
 def main():
     print(" - Start.")
 
-    clf1 = svm.SVC(probability = True)
-    clf2 = RandomForestClassifier(n_estimators= 2000, max_features = 0.7, max_depth = None, criterion = 'entropy')
-    clf3 = GradientBoostingClassifier(n_estimators = 200)
+#    clf1 = svm.SVC(probability = True)
+    parameters = {'criterion' : ('gini', 'entropy'),
+                  'n_estimators' : [1000, 2000, 3000], 
+                  'max_depth' : [6, 7, 8, None], 
+                  'max_features' : ['log2', 'sqrt'], 
+                  'min_samples_leaf' : [1, 2, 3]}
 
-    classifiers = [clf1,
-                   clf2,
-                   clf3]
+    parameters = { 'class_weight' : ['auto', None] }
+
+#    clf_cv = RandomForestClassifier(n_jobs = 40)
+
+#     clf1 = grid_search.GridSearchCV(clf_cv, parameters)
+    clf1 = svm.SVC(class_weight = 'auto')
+
+ #   clf3 = GradientBoostingClassifier(n_estimators = 200)
+
+    classifiers = [clf1]
+  #                 clf2,
+#                   clf3]
     
-    for clf in classifiers:
+    
+
+    for i, clf in enumerate(classifiers):
         clf_fitted, encoder = train(clf, True)
         make_submission(clf_fitted, encoder, i)
 
