@@ -29,7 +29,6 @@ def logloss_mc(y_true, y_prob, epsilon=1e-15):
 
 
 def load_train_data(path=None, train_size=0.95):
-    path = sys.argv[1] if len(sys.argv) > 1 else path
     if path is None:
         try:
             # Unix
@@ -119,7 +118,7 @@ def main():
                    clf2,
                    clf3]
     
-    for clf in classifiers:
+    for i, clf in enumerate(classifiers):
         clf_fitted, encoder = train(clf, True)
         make_submission(clf_fitted, encoder, i)
 
