@@ -1,0 +1,5 @@
+data <- read.csv("data/train.csv")
+
+y <- data[-1]
+
+print(y)
