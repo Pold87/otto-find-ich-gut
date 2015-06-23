@@ -1,5 +1,7 @@
 * Overview
 
+WE WILL UPDATE THIS REPOSITORY AS SOON AS POSSIBLE (23 June 2015)
+
 ** Current approach
 - Use Lasagne and XGB in Python to create an Ensemble classifier
 
