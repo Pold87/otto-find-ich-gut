@@ -1,5 +1,0 @@
-require(caret)
-
-data <- read.csv("data/train.csv")
-
-mdl <- train(data, "svm")

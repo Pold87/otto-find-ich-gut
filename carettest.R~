@@ -1,5 +1,0 @@
-require(caret)
-
-data <- read.csv("data/train.csv")
-
-model <- caret(data)
