@@ -2,22 +2,22 @@
 
 WE WILL UPDATE THIS REPOSITORY AS SOON AS POSSIBLE (23 June 2015)
 
-** Current approach
-- Use Lasagne and XGB in Python to create an Ensemble classifier
+** Approach
+- Lasagne, Keras, H20 and XGB to create an Ensemble classifier.
+- See IPythonModels
 
 *** Involved files
 - IPython: XGBoost (XGBoost in Python, using hyperopt)
 - IPython: Otto_Group_Competition - REAL GOOD (lasagne, using hyperopt)
-
-** What have I done
-- I have an Ensemble classifier with voting
-- I have a postprocessing smoother that finds optimal probability values
+  
+** Other stuff we've tried
+- Ensemble classifier with voting
+- Postprocessing smoother that finds optimal probability values
 - A have hyperopt that find optimal hyperparameter values
 
 ** TODO:
 - Include STD and M per row as feature
-- Use condtional formatting (color coding in Excel) for submission file
-- Use for next submission:
+- Best submission:
   -- H20: h20newsubmission.csv (25 trials) (Script: otto-find-ich-gut/h2onew.R)
   -- XGB: xgboostpython_full_submission.csv (Script: IPython_Submissions/XGBoost.py)
   -- Keras: keras-otto-final.csv (Script: IPython_Submission/keras.py)
