@@ -6,6 +6,8 @@ from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
 from sklearn.preprocessing import LabelEncoder
 from sklearn import svm
 from os import path
+from nolearn.lasagne import NeuralNet
+
 
 def train_clf(clf, train_data):
 
@@ -48,6 +50,30 @@ def main():
     ids = test_data.id
 
     clf = RandomForestClassifier(n_estimators = 10, n_jobs = 32) 
+
+    clf = NeuralNet(
+    layers=[  # three layers: one hidden layer
+        ('input', layers.InputLayer),
+        ('hidden', layers.DenseLayer),
+        ('output', layers.DenseLayer),
+        ],
+
+    # layer parameters:
+    input_shape=(None, 93),  # 96x96 input pixels per batch
+    hidden_num_units=100,  # number of units in hidden layer
+    output_nonlinearity=None,  # output layer uses identity function
+    output_num_units=30,  # 30 target values
+
+    # optimization method:
+    update=nesterov_momentum,
+    update_learning_rate=0.01,
+    update_momentum=0.9,
+
+    regression=True,  # flag to indicate we're dealing with regression problem
+    max_epochs=400,  # we want to train this many epochs
+    verbose=1,
+    )
+
     clf = train_clf(clf, train_data)
 
     probs = clf.predict_proba(test_data.drop('id', axis = 1))

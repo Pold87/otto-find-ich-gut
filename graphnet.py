@@ -11,8 +11,13 @@ del train['id']
 # Train a model
 m = gl.boosted_trees_classifier.create(dataset = train,
                                        target='target',
-                                       max_iterations=300,
-                                       max_depth = 9)
+                                       max_iterations=100,
+                                       max_depth = 10,
+                                       row_subsample = 0.86,
+                                       column_subsample = 0.78,
+                                       min_loss_reduction = 1.05,
+                                       min_child_weight = 4,
+                                       validation_set = None)
  
 # Make submission
 preds = m.predict_topk(test, output_type='probability', k=9)
@@ -22,4 +27,4 @@ preds = preds.sort('id')
  
 assert sample.num_rows() == preds.num_rows()
 
-preds.save("submission_graph.csv", format = 'csv')
+preds.save("submission_graph-500-todo.csv", format = 'csv')

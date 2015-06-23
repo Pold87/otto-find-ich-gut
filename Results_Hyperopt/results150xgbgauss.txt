@@ -1,0 +1,279 @@
+Lubsample': 0.8820095017650793, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 11.0, 'gamma': 0.22938291993576732}
+Log loss is: 0.475241680525
+{'set.seed': 42, 'colsample_bytree': 0.9090553456481404, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 2.0, 'nthread': 2, 'min_child_weight': 9.0, 'subsample': 0.9800064760510989, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 10.0, 'gamma': 0.18714907200269126}
+Log loss is: 0.470632389663
+{'set.seed': 42, 'colsample_bytree': 0.9199389407020434, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 9.0, 'subsample': 0.9788879823100208, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 9.0, 'gamma': 0.9742973436470246}
+Log loss is: 0.472176344411
+{'set.seed': 42, 'colsample_bytree': 0.8552902296001781, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 7.0, 'subsample': 0.8976153356050833, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 10.0, 'gamma': 0.6192554959023474}
+Log loss is: 0.477735756121
+{'set.seed': 42, 'colsample_bytree': 0.7436609166739588, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 2.0, 'nthread': 2, 'min_child_weight': 6.0, 'subsample': 0.7629446609865502, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 10.0, 'gamma': 0.20056634100465165}
+Log loss is: 0.490858087166
+{'set.seed': 42, 'colsample_bytree': 0.8999861394684323, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 2.0, 'nthread': 2, 'min_child_weight': 5.0, 'subsample': 0.7299234207724579, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 11.0, 'gamma': 0.10176666785001609}
+Log loss is: 0.47203440689
+{'set.seed': 42, 'colsample_bytree': 0.8444222639995231, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 10.0, 'subsample': 0.880331173207461, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 10.0, 'gamma': 0.0059740180340281945}
+Log loss is: 0.477001838718
+{'set.seed': 42, 'colsample_bytree': 0.8714858869724871, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 0.0, 'nthread': 2, 'min_child_weight': 8.0, 'subsample': 0.7282227364460321, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 11.0, 'gamma': 0.539969925857259}
+Log loss is: 0.470220029507
+{'set.seed': 42, 'colsample_bytree': 0.7968084689402116, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 3.0, 'nthread': 2, 'min_child_weight': 3.0, 'subsample': 0.8270931801128801, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 9.0, 'gamma': 0.791761735923314}
++Log loss is: 0.479068326306
+{'set.seed': 42, 'colsample_bytree': 0.7939058705100154, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 0.0, 'nthread': 2, 'min_child_weight': 3.0, 'subsample': 0.7041825354040361, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 9.0, 'gamma': 0.4035848891069747}
+Log loss is: 0.467663755048
+{'set.seed': 42, 'colsample_bytree': 0.8033710879158579, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 3.0, 'nthread': 2, 'min_child_weight': 4.0, 'subsample': 0.8506201744676749, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 9.0, 'gamma': 0.8395466038702433}
+Log loss is: 0.468553811983
+{'set.seed': 42, 'colsample_bytree': 0.7254603883879397, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 3.0, 'nthread': 2, 'min_child_weight': 4.0, 'subsample': 0.9538242667229427, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 9.0, 'gamma': 0.8203185740005798}
+Log loss is: 0.470471605876
+{'set.seed': 42, 'colsample_bytree': 0.7834007929002246, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 3.0, 'nthread': 2, 'min_child_weight': 4.0, 'subsample': 0.9986814556509154, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 9.0, 'gamma': 0.820866693927485}
+Log loss is: 0.472301198505
+{'set.seed': 42, 'colsample_bytree': 0.7762143929824133, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 3.0, 'nthread': 2, 'min_child_weight': 5.0, 'subsample': 0.8550280831597916, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 9.0, 'gamma': 0.4159120402277189}
+Log loss is: 0.465803235537
+{'set.seed': 42, 'colsample_bytree': 0.7095192288187857, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 3.0, 'nthread': 2, 'min_child_weight': 4.0, 'subsample': 0.9200745536743764, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 9.0, 'gamma': 0.9073964906999613}
+Log loss is: 0.467724252712
+{'set.seed': 42, 'colsample_bytree': 0.7057238599211036, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 3.0, 'nthread': 2, 'min_child_weight': 3.0, 'subsample': 0.935146652303593, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 8.0, 'gamma': 0.7462692147043377}
+Log loss is: 0.46691731385
+{'set.seed': 42, 'colsample_bytree': 0.73342582650842, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 3.0, 'nthread': 2, 'min_child_weight': 5.0, 'subsample': 0.9166153442500542, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 10.0, 'gamma': 0.8872109086813283}
+Log loss is: 0.4668782955
+{'set.seed': 42, 'colsample_bytree': 0.7247996678066887, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 2.0, 'nthread': 2, 'min_child_weight': 5.0, 'subsample': 0.9165548072138833, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 9.0, 'gamma': 0.9089830183369819}
+Log loss is: 0.466102126553
+{'set.seed': 42, 'colsample_bytree': 0.7021253959676014, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 2.0, 'nthread': 2, 'min_child_weight': 5.0, 'subsample': 0.9139066086416955, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 9.0, 'gamma': 0.9974975283360766}
+Log loss is: 0.470291009836
+{'set.seed': 42, 'colsample_bytree': 0.9860591288426287, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 2.0, 'nthread': 2, 'min_child_weight': 4.0, 'subsample': 0.929304765681119, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 8.0, 'gamma': 0.7354016169632528}
+Log loss is: 0.469816023032
+{'set.seed': 42, 'colsample_bytree': 0.9361405072985155, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 2.0, 'nthread': 2, 'min_child_weight': 3.0, 'subsample': 0.9037570502066661, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 9.0, 'gamma': 0.9687440775381944}
+Log loss is: 0.469123776335
+{'set.seed': 42, 'colsample_bytree': 0.7025285817638313, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 2.0, 'nthread': 2, 'min_child_weight': 5.0, 'subsample': 0.9697646422539544, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 8.0, 'gamma': 0.44618928423763804}
+Log loss is: 0.46834730568
+{'set.seed': 42, 'colsample_bytree': 0.8151891915839424, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 3.0, 'nthread': 2, 'min_child_weight': 7.0, 'subsample': 0.8267204283060974, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 9.0, 'gamma': 0.9967944617271056}
+Log loss is: 0.47012340411
+{'set.seed': 42, 'colsample_bytree': 0.7593331711722704, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 3.0, 'nthread': 2, 'min_child_weight': 4.0, 'subsample': 0.9954632537007566, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 8.0, 'gamma': 0.6647626950373586}
+Log loss is: 0.473679252999
+{'set.seed': 42, 'colsample_bytree': 0.7101690012289416, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 2.0, 'nthread': 2, 'min_child_weight': 3.0, 'subsample': 0.8670734427262705, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 9.0, 'gamma': 0.29803688769164205}
+Log loss is: 0.468857055863
+{'set.seed': 42, 'colsample_bytree': 0.743156871630196, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 3.0, 'nthread': 2, 'min_child_weight': 6.0, 'subsample': 0.9394290937602413, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 8.0, 'gamma': 0.9208254812649934}
+Log loss is: 0.467934580885
+{'set.seed': 42, 'colsample_bytree': 0.7187065129939221, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 2.0, 'nthread': 2, 'min_child_weight': 5.0, 'subsample': 0.9572702062760353, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 10.0, 'gamma': 0.7275943872130557}
+Log loss is: 0.47032524593
+{'set.seed': 42, 'colsample_bytree': 0.819303851787859, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 2.0, 'nthread': 2, 'min_child_weight': 6.0, 'subsample': 0.9032098668657214, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 8.0, 'gamma': 0.607084237388908}
+Log loss is: 0.472578498086
+{'set.seed': 42, 'colsample_bytree': 0.7722777086036147, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 0.0, 'nthread': 2, 'min_child_weight': 4.0, 'subsample': 0.9279714314434837, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 9.0, 'gamma': 0.33977271463037684}
+Log loss is: 0.467051784151
+{'set.seed': 42, 'colsample_bytree': 0.7457363950379113, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 3.0, 'nthread': 2, 'min_child_weight': 6.0, 'subsample': 0.8692251377816164, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 10.0, 'gamma': 0.8729994431920212}
+Log loss is: 0.471845760203
+{'set.seed': 42, 'colsample_bytree': 0.9593836153196662, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 3.0, 'nthread': 2, 'min_child_weight': 3.0, 'subsample': 0.8396650728503415, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 8.0, 'gamma': 0.9325836773968911}
+Log loss is: 0.466338368075
+{'set.seed': 42, 'colsample_bytree': 0.7010994118943553, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 2.0, 'nthread': 2, 'min_child_weight': 7.0, 'subsample': 0.969032920274209, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 11.0, 'gamma': 0.9964614763551617}
+Log loss is: 0.468645271792
+{'set.seed': 42, 'colsample_bytree': 0.7657486591009196, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 9.0, 'subsample': 0.8071048150427498, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 9.0, 'gamma': 0.4878311968687273}
+Log loss is: 0.467779172864
+{'set.seed': 42, 'colsample_bytree': 0.8312302276724943, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 4.0, 'subsample': 0.8888384602133418, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 8.0, 'gamma': 0.7832450886939815}
+Log loss is: 0.467858089937
+{'set.seed': 42, 'colsample_bytree': 0.7508138497575628, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 2.0, 'nthread': 2, 'min_child_weight': 5.0, 'subsample': 0.9487993708248201, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 10.0, 'gamma': 0.6884754271665402}
+Log loss is: 0.466468035453
+{'set.seed': 42, 'colsample_bytree': 0.7844083915221172, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 3.0, 'nthread': 2, 'min_child_weight': 7.0, 'subsample': 0.9102704804386291, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 9.0, 'gamma': 0.625152144037548}
+Log loss is: 0.466796175908
+{'set.seed': 42, 'colsample_bytree': 0.7335478392688702, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 6.0, 'subsample': 0.9875420458261764, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 11.0, 'gamma': 0.9453040505730508}
+Log loss is: 0.471470977253
+{'set.seed': 42, 'colsample_bytree': 0.7158877758664609, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 0.0, 'nthread': 2, 'min_child_weight': 5.0, 'subsample': 0.8650502491145181, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 10.0, 'gamma': 0.5526971018796801}
+Log loss is: 0.46804636895
+{'set.seed': 42, 'colsample_bytree': 0.8056952507579529, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 2.0, 'nthread': 2, 'min_child_weight': 8.0, 'subsample': 0.7861171896804574, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 8.0, 'gamma': 0.9972795758721894}
+Log loss is: 0.470095173558
+{'set.seed': 42, 'colsample_bytree': 0.8764270272969452, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 3.0, 'subsample': 0.8927105278575446, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 10.0, 'gamma': 0.8685629874033343}
+Log loss is: 0.473228647168
+{'set.seed': 42, 'colsample_bytree': 0.8878572413507424, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 3.0, 'nthread': 2, 'min_child_weight': 4.0, 'subsample': 0.8356562023852718, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 9.0, 'gamma': 0.4938411701215012}
+Log loss is: 0.469834338303
+{'set.seed': 42, 'colsample_bytree': 0.8619739895728693, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 2.0, 'nthread': 2, 'min_child_weight': 6.0, 'subsample': 0.878603136992322, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 8.0, 'gamma': 0.7562323916919402}
+Log loss is: 0.482066886355
+{'set.seed': 42, 'colsample_bytree': 0.9455767836064053, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 3.0, 'nthread': 2, 'min_child_weight': 5.0, 'subsample': 0.9670479462102175, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 12.0, 'gamma': 0.3561513902261466}
+Log loss is: 0.478073010669
+{'set.seed': 42, 'colsample_bytree': 0.7290720956863709, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 0.0, 'nthread': 2, 'min_child_weight': 7.0, 'subsample': 0.982838707703141, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 11.0, 'gamma': 0.12165529928558783}
+Log loss is: 0.474329689118
+{'set.seed': 42, 'colsample_bytree': 0.9997349844299193, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 3.0, 'subsample': 0.807340455321566, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 9.0, 'gamma': 0.6982332748637858}
+Log loss is: 0.467326077613
+{'set.seed': 42, 'colsample_bytree': 0.7899456321350412, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 2.0, 'nthread': 2, 'min_child_weight': 4.0, 'subsample': 0.943440417244204, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 9.0, 'gamma': 0.7836757165222338}
+Log loss is: 0.467889952451
+{'set.seed': 42, 'colsample_bytree': 0.7683861309564923, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 2.0, 'nthread': 2, 'min_child_weight': 9.0, 'subsample': 0.9289719190923841, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 10.0, 'gamma': 0.6425797490633152}
+Log loss is: 0.473689033057
+{'set.seed': 42, 'colsample_bytree': 0.9233184741062901, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 3.0, 'nthread': 2, 'min_child_weight': 5.0, 'subsample': 0.7495023638291642, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 9.0, 'gamma': 0.5735621727243451}
+Log loss is: 0.468285714517
+{'set.seed': 42, 'colsample_bytree': 0.73973820898853, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 3.0, 'nthread': 2, 'min_child_weight': 8.0, 'subsample': 0.8581080119598512, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 10.0, 'gamma': 0.8426752895711621}
+Log loss is: 0.469499991931
+{'set.seed': 42, 'colsample_bytree': 0.8413670656609125, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 2.0, 'nthread': 2, 'min_child_weight': 4.0, 'subsample': 0.8401389567799724, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 8.0, 'gamma': 0.8906434920417303}
+Log loss is: 0.466620280419
+{'set.seed': 42, 'colsample_bytree': 0.7139677592101868, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 3.0, 'nthread': 2, 'min_child_weight': 6.0, 'subsample': 0.8830970783835228, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 9.0, 'gamma': 0.8005771948396698}
+Log loss is: 0.464658190536
+{'set.seed': 42, 'colsample_bytree': 0.8144294069255231, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 3.0, 'subsample': 0.9222183942375802, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 12.0, 'gamma': 0.9694938538519481}
+Log loss is: 0.473200438335
+{'set.seed': 42, 'colsample_bytree': 0.8967468068700238, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 0.0, 'nthread': 2, 'min_child_weight': 10.0, 'subsample': 0.9990776066234808, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 11.0, 'gamma': 0.9594405943998049}
+Log loss is: 0.465349423582
+{'set.seed': 42, 'colsample_bytree': 0.7563108684225106, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 3.0, 'subsample': 0.9116577153327274, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 12.0, 'gamma': 0.9177246749248379}
+Log loss is: 0.467858601098
+{'set.seed': 42, 'colsample_bytree': 0.8173100678878453, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 3.0, 'subsample': 0.9228140349607771, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 12.0, 'gamma': 0.9048900475162861}
+Log loss is: 0.469542764574
+{'set.seed': 42, 'colsample_bytree': 0.8019948740321347, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 3.0, 'subsample': 0.9001440750081724, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 12.0, 'gamma': 0.8459398309214915}
+Log loss is: 0.467313158235
+{'set.seed': 42, 'colsample_bytree': 0.7565895403024059, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 0.0, 'nthread': 2, 'min_child_weight': 3.0, 'subsample': 0.9607604300749034, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 12.0, 'gamma': 0.9410597293500182}
+Log loss is: 0.468653753841
+{'set.seed': 42, 'colsample_bytree': 0.779462746619535, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 3.0, 'subsample': 0.874792238020759, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 12.0, 'gamma': 0.724536408249816}
+Log loss is: 0.468504488492
+{'set.seed': 42, 'colsample_bytree': 0.8532274220940754, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 4.0, 'subsample': 0.9068525149577591, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 12.0, 'gamma': 0.973547461437184}
+Log loss is: 0.469616529597
+{'set.seed': 42, 'colsample_bytree': 0.8260698363118391, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 3.0, 'subsample': 0.9334516473332592, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 11.0, 'gamma': 0.8204998725366821}
+Log loss is: 0.495477223844
+{'set.seed': 42, 'colsample_bytree': 0.8101888165063719, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 0.0, 'nthread': 2, 'min_child_weight': 4.0, 'subsample': 0.9501346925366491, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 12.0, 'gamma': 0.013859304487869484}
+Log loss is: 0.469103070833
+{'set.seed': 42, 'colsample_bytree': 0.7919112236021022, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 3.0, 'subsample': 0.9212510199873957, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 12.0, 'gamma': 0.7610129634602922}
+Log loss is: 0.473565861624
+{'set.seed': 42, 'colsample_bytree': 0.8257197646119838, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 0.0, 'nthread': 2, 'min_child_weight': 4.0, 'subsample': 0.9768688890863042, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 11.0, 'gamma': 0.594405819875073}
+Log loss is: 0.470382744803
+{'set.seed': 42, 'colsample_bytree': 0.7215195156307674, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 3.0, 'subsample': 0.8921585376037585, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 12.0, 'gamma': 0.6588002454075588}
+Log loss is: 0.474870438717
+{'set.seed': 42, 'colsample_bytree': 0.7528112901483137, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 4.0, 'subsample': 0.8147787388179779, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 11.0, 'gamma': 0.5287657583096897}
+Log loss is: 0.470367055587
+{'set.seed': 42, 'colsample_bytree': 0.8372852238212946, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 0.0, 'nthread': 2, 'min_child_weight': 3.0, 'subsample': 0.9372123604844241, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 12.0, 'gamma': 0.9173726198852789}
+Log loss is: 0.468547973084
+{'set.seed': 42, 'colsample_bytree': 0.7624932920340175, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 3.0, 'subsample': 0.8483078672973011, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 12.0, 'gamma': 0.6984323064984237}
+Log loss is: 0.475511579252
+{'set.seed': 42, 'colsample_bytree': 0.7377270077021738, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 4.0, 'subsample': 0.8582919248049523, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 11.0, 'gamma': 0.4099787869313507}
+Log loss is: 0.465757261135
+{'set.seed': 42, 'colsample_bytree': 0.7735271931034804, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 0.0, 'nthread': 2, 'min_child_weight': 5.0, 'subsample': 0.9589257962556479, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 11.0, 'gamma': 0.867464510813959}
+Log loss is: 0.469515751417
+{'set.seed': 42, 'colsample_bytree': 0.8599369066870891, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 0.0, 'nthread': 2, 'min_child_weight': 5.0, 'subsample': 0.9890854526690097, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 11.0, 'gamma': 0.8734102076680025}
+Log loss is: 0.485354839624
+{'set.seed': 42, 'colsample_bytree': 0.8486785984007734, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 0.0, 'nthread': 2, 'min_child_weight': 8.0, 'subsample': 0.7025349369978525, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 12.0, 'gamma': 0.26160008366254717}
+Log loss is: 0.468968589131
+{'set.seed': 42, 'colsample_bytree': 0.7873767763062558, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 0.0, 'nthread': 2, 'min_child_weight': 6.0, 'subsample': 0.9629514215155475, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 11.0, 'gamma': 0.8027935208623118}
+Log loss is: 0.465830969877
+{'set.seed': 42, 'colsample_bytree': 0.7752559957777475, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 0.0, 'nthread': 2, 'min_child_weight': 5.0, 'subsample': 0.9528049302173022, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 12.0, 'gamma': 0.9791338252692474}
+Log loss is: 0.46907228191
+{'set.seed': 42, 'colsample_bytree': 0.7986657996819378, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 0.0, 'nthread': 2, 'min_child_weight': 5.0, 'subsample': 0.9752396826269014, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 11.0, 'gamma': 0.858546802261959}
+Log loss is: 0.469216647512
+{'set.seed': 42, 'colsample_bytree': 0.8083228517703954, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 0.0, 'nthread': 2, 'min_child_weight': 4.0, 'subsample': 0.9108018144625541, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 12.0, 'gamma': 0.7673109633692999}
+Log loss is: 0.470305310697
+{'set.seed': 42, 'colsample_bytree': 0.8361744351571977, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 7.0, 'subsample': 0.9437624130309923, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 12.0, 'gamma': 0.7226966334425111}
+Log loss is: 0.469438964893
+{'set.seed': 42, 'colsample_bytree': 0.8690310846770166, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 9.0, 'subsample': 0.9909419419411992, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 11.0, 'gamma': 0.8286533569333223}
+Log loss is: 0.468535284771
+{'set.seed': 42, 'colsample_bytree': 0.8840493582344053, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 0.0, 'nthread': 2, 'min_child_weight': 6.0, 'subsample': 0.8870216165939148, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 12.0, 'gamma': 0.9459773524503146}
+Log loss is: 0.465140772967
+{'set.seed': 42, 'colsample_bytree': 0.7722301704343115, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 3.0, 'subsample': 0.8974371490838656, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 11.0, 'gamma': 0.8902959886297181}
+Log loss is: 0.468444746668
+{'set.seed': 42, 'colsample_bytree': 0.7486642010176121, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 3.0, 'subsample': 0.8731458008363071, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 12.0, 'gamma': 0.8908231109028695}
+Log loss is: 0.465687471837
+{'set.seed': 42, 'colsample_bytree': 0.8137236047448551, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 3.0, 'subsample': 0.8500751003228003, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 11.0, 'gamma': 0.9907781857304382}
+Log loss is: 0.473289022349
+{'set.seed': 42, 'colsample_bytree': 0.7814714416767097, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 4.0, 'subsample': 0.7809877049435033, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 12.0, 'gamma': 0.6406189407266274}
+Log loss is: 0.490643123121
+{'set.seed': 42, 'colsample_bytree': 0.7963769977385126, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 3.0, 'subsample': 0.8949812366123168, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 11.0, 'gamma': 0.18602023464714718}
+Log loss is: 0.475457780333
+{'set.seed': 42, 'colsample_bytree': 0.8223053723707451, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 4.0, 'subsample': 0.8646642393461806, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 12.0, 'gamma': 0.5167604596853095}
+Log loss is: 0.465626460696
+{'set.seed': 42, 'colsample_bytree': 0.7676101033398817, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 3.0, 'subsample': 0.9247081970880217, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 12.0, 'gamma': 0.9270065652921813}
+Log loss is: 0.481787767245
+{'set.seed': 42, 'colsample_bytree': 0.8331496947960939, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 4.0, 'subsample': 0.7969711714427099, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 11.0, 'gamma': 0.38509740590321767}
+Log loss is: 0.470081782342
+{'set.seed': 42, 'colsample_bytree': 0.9134716014304176, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 3.0, 'subsample': 0.9153422519415101, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 11.0, 'gamma': 0.7993378568683951}
+Log loss is: 0.477099464288
+{'set.seed': 42, 'colsample_bytree': 0.7294141970265913, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 3.0, 'subsample': 0.8297940796393696, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 12.0, 'gamma': 0.4574779980608406}
+Log loss is: 0.475721195131
+{'set.seed': 42, 'colsample_bytree': 0.8465160091794101, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 10.0, 'subsample': 0.8207733132743128, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 10.0, 'gamma': 0.0815529244349052}
+Log loss is: 0.474633703198
+{'set.seed': 42, 'colsample_bytree': 0.7611593025035641, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 2.0, 'nthread': 2, 'min_child_weight': 4.0, 'subsample': 0.7630793239814905, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 11.0, 'gamma': 0.5904415963193228}
+Log loss is: 0.46903318481
+{'set.seed': 42, 'colsample_bytree': 0.7095405767188351, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 3.0, 'subsample': 0.7177600902847798, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 12.0, 'gamma': 0.9576603991917553}
+Log loss is: 0.472810820042
+{'set.seed': 42, 'colsample_bytree': 0.8771673267229888, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 4.0, 'subsample': 0.8976152564608683, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 12.0, 'gamma': 0.706415412033066}
+Log loss is: 0.466402414482
+{'set.seed': 42, 'colsample_bytree': 0.8013401270212918, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 2.0, 'nthread': 2, 'min_child_weight': 5.0, 'subsample': 0.8827455681048563, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 11.0, 'gamma': 0.9021069080349142}
+Log loss is: 0.467403375854
+{'set.seed': 42, 'colsample_bytree': 0.7366402808397573, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 3.0, 'subsample': 0.9040196520287429, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 10.0, 'gamma': 0.7380932331333088}
+Log loss is: 0.472718113488
+{'set.seed': 42, 'colsample_bytree': 0.8607480651752627, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 0.0, 'nthread': 2, 'min_child_weight': 8.0, 'subsample': 0.9320004869592785, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 12.0, 'gamma': 0.6749667814316763}
+Log loss is: 0.466448502187
+{'set.seed': 42, 'colsample_bytree': 0.7871330585045347, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 4.0, 'subsample': 0.943195092975724, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 10.0, 'gamma': 0.771276891025906}
+Log loss is: 0.465795182751
+{'set.seed': 42, 'colsample_bytree': 0.7554897490245578, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 3.0, 'subsample': 0.8743602997805139, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 11.0, 'gamma': 0.8469281534106105}
+Log loss is: 0.467401077755
+{'set.seed': 42, 'colsample_bytree': 0.7434295439924302, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 0.0, 'nthread': 2, 'min_child_weight': 10.0, 'subsample': 0.9723794809696157, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 12.0, 'gamma': 0.8238879163618775}
+Log loss is: 0.467726903178
+{'set.seed': 42, 'colsample_bytree': 0.723374821141514, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 2.0, 'nthread': 2, 'min_child_weight': 4.0, 'subsample': 0.859208329709223, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 12.0, 'gamma': 0.9785167678100722}
+Log loss is: 0.470017178953
+{'set.seed': 42, 'colsample_bytree': 0.7695505789163019, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 5.0, 'subsample': 0.9085150408863578, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 11.0, 'gamma': 0.6195954913164488}
+Log loss is: 0.468600421767
+{'set.seed': 42, 'colsample_bytree': 0.8291960586348109, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 0.0, 'nthread': 2, 'min_child_weight': 3.0, 'subsample': 0.8459435267532858, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 12.0, 'gamma': 0.8865703885660235}
+Log loss is: 0.467341845243
+{'set.seed': 42, 'colsample_bytree': 0.8932565498327826, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 7.0, 'subsample': 0.9169745099345945, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 11.0, 'gamma': 0.9989816884540841}
+Log loss is: 0.472959433982
+{'set.seed': 42, 'colsample_bytree': 0.7778180545583459, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 2.0, 'nthread': 2, 'min_child_weight': 9.0, 'subsample': 0.839186925252532, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 12.0, 'gamma': 0.5505288169351219}
+Log loss is: 0.480468555975
+{'set.seed': 42, 'colsample_bytree': 0.8129938158109244, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 0.0, 'nthread': 2, 'min_child_weight': 4.0, 'subsample': 0.9838906845051925, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 10.0, 'gamma': 0.22594947349970007}
+Log loss is: 0.46770512619
+{'set.seed': 42, 'colsample_bytree': 0.7918644417283847, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 5.0, 'subsample': 0.8868425291436353, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 11.0, 'gamma': 0.934089824668316}
+Log loss is: 0.470607698051
+{'set.seed': 42, 'colsample_bytree': 0.9044156026205464, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 3.0, 'subsample': 0.9371837044520789, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 12.0, 'gamma': 0.9572413780471266}
+Log loss is: 0.469109296664
+{'set.seed': 42, 'colsample_bytree': 0.806803678792901, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 0.0, 'nthread': 2, 'min_child_weight': 3.0, 'subsample': 0.9633433964858386, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 12.0, 'gamma': 0.8090360738001049}
+Log loss is: 0.472467372024
+{'set.seed': 42, 'colsample_bytree': 0.7473070955151393, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 2.0, 'nthread': 2, 'min_child_weight': 6.0, 'subsample': 0.9536272175938253, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 10.0, 'gamma': 0.3379080275447903}
+Log loss is: 0.466788164629
+{'set.seed': 42, 'colsample_bytree': 0.7300444389459407, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 4.0, 'subsample': 0.9256410481878572, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 11.0, 'gamma': 0.7855910197859128}
+Log loss is: 0.471021036548
+{'set.seed': 42, 'colsample_bytree': 0.8205186887372131, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 0.0, 'nthread': 2, 'min_child_weight': 4.0, 'subsample': 0.8132889361316838, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 11.0, 'gamma': 0.7508623228399245}
+Log loss is: 0.473174703185
+{'set.seed': 42, 'colsample_bytree': 0.9594473270120769, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 5.0, 'subsample': 0.9018664676182141, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 12.0, 'gamma': 0.6439984961153908}
+Log loss is: 0.489352598165
+{'set.seed': 42, 'colsample_bytree': 0.8417692321671263, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 3.0, 'subsample': 0.867533043150417, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 12.0, 'gamma': 0.29621703631038665}
+Log loss is: 0.467944476558
+{'set.seed': 42, 'colsample_bytree': 0.700178985021447, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 2.0, 'nthread': 2, 'min_child_weight': 6.0, 'subsample': 0.9474612731679678, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 12.0, 'gamma': 0.7137081468743994}
+Log loss is: 0.473895688038
+{'set.seed': 42, 'colsample_bytree': 0.9255996516661329, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 0.0, 'nthread': 2, 'min_child_weight': 3.0, 'subsample': 0.8781380015603487, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 11.0, 'gamma': 0.6771848839751927}
+Log loss is: 0.472761276276
+{'set.seed': 42, 'colsample_bytree': 0.7151600546793097, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 7.0, 'subsample': 0.8545889793899039, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 10.0, 'gamma': 0.41820215528144483}
+Log loss is: 0.486377779307
+{'set.seed': 42, 'colsample_bytree': 0.762971843602595, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 0.0, 'nthread': 2, 'min_child_weight': 4.0, 'subsample': 0.8908838742958274, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 11.0, 'gamma': 0.1402224213847264}
+Log loss is: 0.471355786558
+{'set.seed': 42, 'colsample_bytree': 0.7507077490239119, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 2.0, 'nthread': 2, 'min_child_weight': 8.0, 'subsample': 0.9951194909009224, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 12.0, 'gamma': 0.5778755223499455}
+Log loss is: 0.46924695249
+{'set.seed': 42, 'colsample_bytree': 0.8521880912931393, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 4.0, 'subsample': 0.7920619846991666, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 11.0, 'gamma': 0.9145011038359453}
+Log loss is: 0.500570207825
+{'set.seed': 42, 'colsample_bytree': 0.7951166513978932, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 3.0, 'subsample': 0.9107555548988118, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 12.0, 'gamma': 0.0360720107935763}
+Log loss is: 0.477500660068
+{'set.seed': 42, 'colsample_bytree': 0.7734602450541259, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 0.0, 'nthread': 2, 'min_child_weight': 5.0, 'subsample': 0.8332005655949852, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 11.0, 'gamma': 0.47481927268567786}
+Log loss is: 0.468102861838
+{'set.seed': 42, 'colsample_bytree': 0.7819203463107208, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 3.0, 'subsample': 0.967241253034616, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 12.0, 'gamma': 0.8805208226125637}
+Log loss is: 0.470123009658
+{'set.seed': 42, 'colsample_bytree': 0.8644970357355382, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 4.0, 'subsample': 0.9299360833554796, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 12.0, 'gamma': 0.8574817961568978}
+Log loss is: 0.46798294582
+{'set.seed': 42, 'colsample_bytree': 0.8753302019831927, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 2.0, 'nthread': 2, 'min_child_weight': 5.0, 'subsample': 0.9197961432089694, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 10.0, 'gamma': 0.9711386058372508}
+Log loss is: 0.466416068729
+{'set.seed': 42, 'colsample_bytree': 0.7066339015583513, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 9.0, 'subsample': 0.8242419379745244, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 11.0, 'gamma': 0.9969921221052848}
+Log loss is: 0.467291201092
+{'set.seed': 42, 'colsample_bytree': 0.7411292579311362, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 0.0, 'nthread': 2, 'min_child_weight': 3.0, 'subsample': 0.8442459885027723, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 12.0, 'gamma': 0.8379578161820139}
+Log loss is: 0.468009016604
+{'set.seed': 42, 'colsample_bytree': 0.8029343030693938, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 2.0, 'nthread': 2, 'min_child_weight': 4.0, 'subsample': 0.8613656026965912, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 11.0, 'gamma': 0.9293499357548762}
+Log loss is: 0.464992104802
+{'set.seed': 42, 'colsample_bytree': 0.7600572415553222, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 6.0, 'subsample': 0.9401754401359272, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 12.0, 'gamma': 0.9035523081319413}
+Log loss is: 0.470692129138
+{'set.seed': 42, 'colsample_bytree': 0.8574679266224466, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 7.0, 'subsample': 0.7454327386450235, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 12.0, 'gamma': 0.772464297199257}
+Log loss is: 0.470637293932
+{'set.seed': 42, 'colsample_bytree': 0.8176773038989015, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 0.0, 'nthread': 2, 'min_child_weight': 8.0, 'subsample': 0.9579213297700411, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 11.0, 'gamma': 0.5127980257013425}
+Log loss is: 0.471831005953
+{'set.seed': 42, 'colsample_bytree': 0.8830973358851086, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 9.0, 'subsample': 0.9367055971030566, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 10.0, 'gamma': 0.6542977582757636}
+Log loss is: 0.470581958862
+{'set.seed': 42, 'colsample_bytree': 0.8334301927746892, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 2.0, 'nthread': 2, 'min_child_weight': 6.0, 'subsample': 0.9815133295567201, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 12.0, 'gamma': 0.6017799496858172}
+Log loss is: 0.474098087734
+{'set.seed': 42, 'colsample_bytree': 0.9751221714125052, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 0.0, 'nthread': 2, 'min_child_weight': 7.0, 'subsample': 0.9741751513107407, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 12.0, 'gamma': 0.7434056911512071}
+Log loss is: 0.468751186334
+{'set.seed': 42, 'colsample_bytree': 0.7871987569548835, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 10.0, 'subsample': 0.9001842880791429, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 11.0, 'gamma': 0.8115547786474759}
+Log loss is: 0.467066983851
+{'set.seed': 42, 'colsample_bytree': 0.757354318537494, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 6.0, 'subsample': 0.8959276935101924, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 12.0, 'gamma': 0.9474233050613609}
+Log loss is: 0.466627582646
+{'set.seed': 42, 'colsample_bytree': 0.7618924285712941, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 3.0, 'subsample': 0.9419283411093436, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 12.0, 'gamma': 0.8979834484643}
+Log loss is: 0.465879230688
+{'set.seed': 42, 'colsample_bytree': 0.7341903384762485, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 3.0, 'subsample': 0.8839759584332778, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 12.0, 'gamma': 0.8667544160640817}
+Log loss is: 0.466213919724
+{'set.seed': 42, 'colsample_bytree': 0.7208547248959322, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 5.0, 'subsample': 0.8718431993041165, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 12.0, 'gamma': 0.9046775241880106}
+Log loss is: 0.468664120938
+{'set.seed': 42, 'colsample_bytree': 0.8102573825881642, 'silent': 1, 'eval_metric': 'mlogloss', 'max_delta_step': 1.0, 'nthread': 2, 'min_child_weight': 4.0, 'subsample': 0.9139616079258054, 'eta': 0.07, 'objective': 'multi:softprob', 'num_class': 9, 'max_depth': 12.0, 'gamma': 0.9810065966231446}
+{'childweight': 3.0, 'subsample': 0.9222183942375802, 'depth': 12.0, 'delta': 1.0, 'colsample': 0.8144294069255231, 'gamma': 0.9694938538519481}
+[0.4733083359785871, 0.4710410281140614, 0.46707001760976563, 0.4758139821757443, 0.4705269311350421, 0.4878530442781885, 0.4787521497231443, 0.4680450921016297, 0.4702654050679306, 0.4842479356349554, 0.4743585257434125, 0.4980769380246183, 0.48011466218162835, 0.4752416805248527, 0.47063238966293974, 0.4721763444112445, 0.4777357561205987, 0.49085808716630497, 0.4720344068899599, 0.4770018387182254, 0.470220029507054, 0.47906832630606855, 0.4676637550481562, 0.4685538119829232, 0.4704716058758832, 0.4723011985049035, 0.4658032355368971, 0.4677242527117588, 0.4669173138498135, 0.46687829550046467, 0.46610212655257893, 0.47029100983556754, 0.4698160230324662, 0.4691237763346939, 0.4683473056801501, 0.47012340411019676, 0.4736792529994465, 0.4688570558634466, 0.4679345808852082, 0.4703252459302666, 0.4725784980856842, 0.46705178415057874, 0.47184576020324454, 0.46633836807493334, 0.46864527179233506, 0.46777917286374704, 0.4678580899372558, 0.4664680354525596, 0.4667961759083878, 0.4714709772531599, 0.46804636894950324, 0.47009517355768565, 0.4732286471677558, 0.46983433830331395, 0.482066886355183, 0.47807301066878544, 0.47432968911829615, 0.46732607761318645, 0.4678899524514836, 0.47368903305663346, 0.4682857145169786, 0.46949999193121106, 0.4666202804193099, 0.46465819053580754, 0.47320043833536196, 0.46534942358184206, 0.46785860109812727, 0.4695427645735889, 0.4673131582353756, 0.46865375384124647, 0.46850448849211107, 0.469616529596798, 0.4954772238438106, 0.46910307083256675, 0.47356586162365616, 0.4703827448029637, 0.47487043871745477, 0.4703670555870922, 0.46854797308391005, 0.4755115792517895, 0.4657572611353486, 0.46951575141685054, 0.4853548396241966, 0.46896858913140976, 0.4658309698774715, 0.4690722819102739, 0.4692166475120978, 0.47030531069698256, 0.46943896489254777, 0.46853528477067957, 0.46514077296652573, 0.46844474666792757, 0.4656874718372469, 0.4732890223485869, 0.49064312312100855, 0.47545778033338637, 0.4656264606956785, 0.48178776724490185, 0.470081782342115, 0.4770994642876116, 0.4757211951308158, 0.4746337031975747, 0.46903318480981354, 0.4728108200424644, 0.46640241448157116, 0.46740337585421765, 0.4727181134884939, 0.46644850218702827, 0.46579518275146564, 0.46740107775474404, 0.4677269031783092, 0.47001717895311196, 0.4686004217665853, 0.4673418452434933, 0.47295943398245055, 0.4804685559747327, 0.46770512619019455, 0.4706076980508643, 0.46910929666449624, 0.47246737202417843, 0.4667881646287224, 0.47102103654817856, 0.4731747031847794, 0.48935259816515847, 0.46794447655775473, 0.47389568803815124, 0.47276127627610764, 0.4863777793073262, 0.4713557865581328, 0.4692469524901624, 0.5005702078250548, 0.4775006600683625, 0.4681028618379769, 0.47012300965798015, 0.46798294581955746, 0.4664160687292015, 0.4672912010924374, 0.4680090166043751, 0.46499210480175374, 0.4706921291379222, 0.470637293932177, 0.47183100595329874, 0.4705819588619298, 0.4740980877338887, 0.46875118633408397, 0.4670669838511474, 0.4666275826459323, 0.46587923068823495, 0.46621391972440795, 0.4686641209375173]
+{'childweight': 3.0, 'subsample': 0.9222183942375802, 'depth': 12.0, 'delta': 1.0, 'colsample': 0.8144294069255231, 'gamma': 0.9694938538519481}
+}]}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}

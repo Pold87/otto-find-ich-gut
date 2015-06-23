@@ -6,8 +6,8 @@ import pandas as pd
 from sklearn.cross_validation import train_test_split
 from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
 from sklearn.preprocessing import LabelEncoder
-from sklearn import svm
-
+from sklearn.calibration import CalibratedClassifierCV
+from mlxtend.sklearn import EnsembleClassifier
 
 np.random.seed(17411)
 
@@ -31,12 +31,8 @@ def logloss_mc(y_true, y_prob, epsilon=1e-15):
 def load_train_data(path=None, train_size=0.999):
     path = sys.argv[1] if len(sys.argv) > 1 else path
     if path is None:
-        try:
-            # Unix
-            df = pd.read_csv('data/train.csv')
-        except IOError:
-            # Windows
-            df = pd.read_csv('data\\traifan.csv')
+        df = pd.read_csv('data/train80.csv')
+
     else:
         df = pd.read_csv(path)
     X = df.values.copy()
@@ -52,30 +48,51 @@ def load_train_data(path=None, train_size=0.999):
 def load_test_data(path=None):
     path = sys.argv[2] if len(sys.argv) > 2 else path
     if path is None:
-        try:
-            # Unix
-            df = pd.read_csv('data/test.csv')
-        except IOError:
-            # Windows
-            df = pd.read_csv('data\\test.csv')
+        df = pd.read_csv('data/holdout20.csv')
     else:
         df = pd.read_csv(path)
+
     X = df.values
-    X_test, ids = X[:, 1:], X[:, 0]
+    X_test, ids = X[:, 1:-1], X[:, 0]
     return X_test.astype(float), ids.astype(str)
 
 
 def train():
     X_train, X_valid, y_train, y_valid = load_train_data()
-
     
-    n_estimators = 5000
-    clf = svm.NuSVC()
-    clf = RandomForestClassifier(n_estimators=n_estimators, max_features = 0.7, max_depth = None)
+
+    rf_1 = GradientBoostingClassifier(n_estimators=100,
+        max_depth=9,
+        subsample=0.8)
+    
+    rf_2 = GradientBoostingClassifier(n_estimators=100,
+        max_depth=9,
+        subsample=0.9)
+
+    rf_3 = GradientBoostingClassifier(n_estimators=15,
+        max_depth=9,
+        subsample=0.8)
+
+    rfc = RandomForestClassifier(n_estimators=500,
+        warm_start=True)
+
+    ccc = CalibratedClassifierCV(base_estimator=rfc, cv=3, method='isotonic')
+
+    # set up ensemble of rf_1 and rf_2
+    clf = EnsembleClassifier(clfs=[rf_1, rf_2, ccc], voting='soft', weights=[1,1, 0.5])
+
+
+    clf = SVC()
+
+    # fit training data
+    clf.fit(X_train, y_train)
+
     # clf = GradientBoostingClassifier(n_estimators=n_estimators)
     print(" -- Start training Random Forest Classifier.")
-    clf.fit(X_train, y_train)
-    y_prob = clf.predict_proba(X_valid)
+    #clf = CalibratedClassifierCV(base_estimator=rfc, cv=3, method='isotonic')
+    #clf.fit(X_train, y_train)
+    # y_prob = clf.predict_proba(X_valid)
+    y_prob = clf.predict(X_valid)[:, 1]
     print(" -- Finished training.")
 
     encoder = LabelEncoder()

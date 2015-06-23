@@ -49,13 +49,13 @@ def main():
     ids = test_data.id
 
     # clf = RandomForestClassifier(n_estimators = 10, n_jobs = 32) 
-    clf = MultilayerPerceptronClassifier(hidden_layer_sizes = (50, 20), \
-                                     max_iter = 200, alpha = 0.02)
+    clf = MultilayerPerceptronClassifier(hidden_layer_sizes = (128, 128, 128), \
+                                         max_iter = 10, verbose = True)
     
 
     clf = train_clf(clf, train_data)
 
-    probs = clf.predict(test_data.drop('id', axis = 1))
+    probs = clf.predict_proba(test_data.drop('id', axis = 1))
     make_submission(probs, ids)
     
 if __name__ == "__main__":

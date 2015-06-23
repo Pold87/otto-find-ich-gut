@@ -1,0 +1,32 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 55050240 bytes for committing reserved memory.
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   In 32 bit mode, the process size limit was hit
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Use 64 bit Java on a 64 bit OS
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (os_linux.cpp:2673), pid=11234, tid=139851090298624
+#
+# JRE version: OpenJDK Runtime Environment (8.0_45-b14) (build 1.8.0_45-b14)
+# Java VM: OpenJDK 64-Bit Server VM (25.45-b02 mixed mode linux-amd64 compressed oops)
+# Core dump written. Default location: /home/pold/Documents/Radboud/otto-find-ich-gut/core or core.11234
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00007f31c413d000):  VMThread [stack: 0x00007f319e7f0000,0x00007f319e8f1000] [id=11240]
+
+Stack: [0x00007f319e7f0000,0x00007f319e8f1000],  sp=0x00007f319e8ef4d0,  free space=1021k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [libjvm.so+0xa8fdcd]
+V  [libjvm.so+0x4e85bc]
