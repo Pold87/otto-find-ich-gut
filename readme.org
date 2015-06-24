@@ -1,20 +1,38 @@
 * Overview
 
 ** Approach
-- Use Lasagne, Keras, H20 and XGB to create an Ensemble classifier (average ensemble)
+- We are using Lasagne, Keras, H20 and XGB to create an Ensemble
+  classifier (average ensemble)
 
-*** Files
-- IPython_Crossvalidation: XGBoost (XGBoost in Python, using hyperopt)
-- IPython: Otto_Group_Competition - REAL GOOD (lasagne, using hyperopt)
-  
+** Files and folders
+- The folder IPython_Crossvalidation/ contains different models for
+  creating /local/ submission files.
+- The folder IPythonModels/ contains the local crossvalidation.
+- The folder IPython_Submissions/ contains different models for
+  creating submission files for kaggle (Keras, Lasagne). The file Aggregator.ipynb is
+  used for ensembling different classifiers.
+- The folder Results_Hyperopt/ contains the results of different runs
+  of using hyperopt for parameter tuning.
+- The folder data/ contains the train and test set (including the
+  holdout test set). Additionally it contains a file (Split25.ipynb)
+  for creating holdout data sets.
+- The file Ensemble.ipynb contains an example of a ensemble average
+  and of different possibilities for postprocessing submission files.
+
+All the other files were used for data exploration and trial and
+error.
+
+
 ** Other stuff we've tried
-- Ensemble classifier with voting
+- Ensemble classifier with voting (no score improvement)
 - Postprocessing smoother that finds optimal probability values
-- A have hyperopt that find optimal hyperparameter values
+  (improvement on local CV but not on kaggle)
+- using hyperopt to find optimal hyperparameter values (worked very
+  well and improved the score a lot)
 
-** TODO:
+** Interesting further enhancements:
 - Include STD and M per row as feature
-- Best submission:
+- Best submissions:
   -- H20: h20newsubmission.csv (25 trials) (Script: otto-find-ich-gut/h2onew.R)
   -- XGB: xgboostpython_full_submission.csv (Script: IPython_Submissions/XGBoost.py)
   -- Keras: keras-otto-final.csv (Script: IPython_Submission/keras.py)
